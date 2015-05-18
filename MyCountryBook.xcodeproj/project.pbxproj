@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0140C9831AF6486200217EE8 /* africa_desc.pages in Resources */ = {isa = PBXBuildFile; fileRef = 0140C9821AF6486200217EE8 /* africa_desc.pages */; };
+		0174CD561AFE09D6007C1BB2 /* CountryList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0174CD551AFE09D6007C1BB2 /* CountryList.plist */; };
+		01B9CAB71AF62AE00056CE0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9CAB61AF62AE00056CE0B /* main.m */; };
+		01B9CABA1AF62AE00056CE0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9CAB91AF62AE00056CE0B /* AppDelegate.m */; };
+		01B9CABD1AF62AE00056CE0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9CABC1AF62AE00056CE0B /* ViewController.m */; };
+		01B9CAC01AF62AE00056CE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CABE1AF62AE00056CE0B /* Main.storyboard */; };
+		01B9CAC21AF62AE00056CE0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAC11AF62AE00056CE0B /* Images.xcassets */; };
+		01B9CAC51AF62AE00056CE0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAC31AF62AE00056CE0B /* LaunchScreen.xib */; };
+		01B9CAD11AF62AE00056CE0B /* MyCountryBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9CAD01AF62AE00056CE0B /* MyCountryBookTests.m */; };
+		01B9CADD1AF62B640056CE0B /* ActualPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B9CADB1AF62B640056CE0B /* ActualPage.m */; };
+		01B9CADE1AF62B640056CE0B /* ActualPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CADC1AF62B640056CE0B /* ActualPage.xib */; };
+		01B9CAE41AF6382A0056CE0B /* india.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAE31AF6382A0056CE0B /* india.jpg */; };
+		01B9CAE61AF6383F0056CE0B /* africa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAE51AF6383F0056CE0B /* africa.jpg */; };
+		01B9CAE81AF638530056CE0B /* australia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAE71AF638530056CE0B /* australia.jpg */; };
+		01B9CAEA1AF638670056CE0B /* china.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAE91AF638670056CE0B /* china.jpg */; };
+		01B9CAEC1AF6387A0056CE0B /* Dubai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAEB1AF6387A0056CE0B /* Dubai.jpg */; };
+		01B9CAEE1AF6389B0056CE0B /* spain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAED1AF6389B0056CE0B /* spain.jpg */; };
+		01B9CAF01AF638AE0056CE0B /* singaporejpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAEF1AF638AE0056CE0B /* singaporejpg.jpg */; };
+		01B9CAF21AF638BE0056CE0B /* new zeland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAF11AF638BE0056CE0B /* new zeland.jpg */; };
+		01B9CAF41AF638CF0056CE0B /* japan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAF31AF638CF0056CE0B /* japan.jpg */; };
+		01B9CAF61AF638F70056CE0B /* italy1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01B9CAF51AF638F70056CE0B /* italy1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01B9CACB1AF62AE00056CE0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01B9CAA91AF62AE00056CE0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B9CAB01AF62AE00056CE0B;
+			remoteInfo = MyCountryBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0140C9821AF6486200217EE8 /* africa_desc.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = africa_desc.pages; sourceTree = "<group>"; };
+		0174CD551AFE09D6007C1BB2 /* CountryList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CountryList.plist; sourceTree = "<group>"; };
+		01B9CAB11AF62AE00056CE0B /* MyCountryBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCountryBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B9CAB51AF62AE00056CE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B9CAB61AF62AE00056CE0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01B9CAB81AF62AE00056CE0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01B9CAB91AF62AE00056CE0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01B9CABB1AF62AE00056CE0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01B9CABC1AF62AE00056CE0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01B9CABF1AF62AE00056CE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01B9CAC11AF62AE00056CE0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01B9CAC41AF62AE00056CE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		01B9CACA1AF62AE00056CE0B /* MyCountryBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCountryBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B9CACF1AF62AE00056CE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B9CAD01AF62AE00056CE0B /* MyCountryBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCountryBookTests.m; sourceTree = "<group>"; };
+		01B9CADA1AF62B640056CE0B /* ActualPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActualPage.h; sourceTree = "<group>"; };
+		01B9CADB1AF62B640056CE0B /* ActualPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActualPage.m; sourceTree = "<group>"; };
+		01B9CADC1AF62B640056CE0B /* ActualPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActualPage.xib; sourceTree = "<group>"; };
+		01B9CAE31AF6382A0056CE0B /* india.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = india.jpg; sourceTree = "<group>"; };
+		01B9CAE51AF6383F0056CE0B /* africa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = africa.jpg; sourceTree = "<group>"; };
+		01B9CAE71AF638530056CE0B /* australia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = australia.jpg; sourceTree = "<group>"; };
+		01B9CAE91AF638670056CE0B /* china.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = china.jpg; sourceTree = "<group>"; };
+		01B9CAEB1AF6387A0056CE0B /* Dubai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dubai.jpg; sourceTree = "<group>"; };
+		01B9CAED1AF6389B0056CE0B /* spain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spain.jpg; sourceTree = "<group>"; };
+		01B9CAEF1AF638AE0056CE0B /* singaporejpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = singaporejpg.jpg; sourceTree = "<group>"; };
+		01B9CAF11AF638BE0056CE0B /* new zeland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "new zeland.jpg"; sourceTree = "<group>"; };
+		01B9CAF31AF638CF0056CE0B /* japan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japan.jpg; sourceTree = "<group>"; };
+		01B9CAF51AF638F70056CE0B /* italy1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = italy1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B9CAAE1AF62AE00056CE0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B9CAC71AF62AE00056CE0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0140C9811AF6471C00217EE8 /* country_img */ = {
+			isa = PBXGroup;
+			children = (
+				0140C9821AF6486200217EE8 /* africa_desc.pages */,
+				01B9CAE31AF6382A0056CE0B /* india.jpg */,
+				01B9CAF11AF638BE0056CE0B /* new zeland.jpg */,
+				01B9CAF51AF638F70056CE0B /* italy1.jpg */,
+				01B9CAF31AF638CF0056CE0B /* japan.jpg */,
+				01B9CAED1AF6389B0056CE0B /* spain.jpg */,
+				01B9CAEB1AF6387A0056CE0B /* Dubai.jpg */,
+				01B9CAEF1AF638AE0056CE0B /* singaporejpg.jpg */,
+				01B9CAE71AF638530056CE0B /* australia.jpg */,
+				01B9CAE91AF638670056CE0B /* china.jpg */,
+				01B9CAE51AF6383F0056CE0B /* africa.jpg */,
+			);
+			name = country_img;
+			sourceTree = "<group>";
+		};
+		01B9CAA81AF62AE00056CE0B = {
+			isa = PBXGroup;
+			children = (
+				01B9CADA1AF62B640056CE0B /* ActualPage.h */,
+				01B9CADB1AF62B640056CE0B /* ActualPage.m */,
+				0140C9811AF6471C00217EE8 /* country_img */,
+				01B9CADC1AF62B640056CE0B /* ActualPage.xib */,
+				01B9CAB31AF62AE00056CE0B /* MyCountryBook */,
+				01B9CACD1AF62AE00056CE0B /* MyCountryBookTests */,
+				01B9CAB21AF62AE00056CE0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01B9CAB21AF62AE00056CE0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B9CAB11AF62AE00056CE0B /* MyCountryBook.app */,
+				01B9CACA1AF62AE00056CE0B /* MyCountryBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01B9CAB31AF62AE00056CE0B /* MyCountryBook */ = {
+			isa = PBXGroup;
+			children = (
+				01B9CAB81AF62AE00056CE0B /* AppDelegate.h */,
+				01B9CAB91AF62AE00056CE0B /* AppDelegate.m */,
+				01B9CABB1AF62AE00056CE0B /* ViewController.h */,
+				01B9CABC1AF62AE00056CE0B /* ViewController.m */,
+				0174CD551AFE09D6007C1BB2 /* CountryList.plist */,
+				01B9CABE1AF62AE00056CE0B /* Main.storyboard */,
+				01B9CAC11AF62AE00056CE0B /* Images.xcassets */,
+				01B9CAC31AF62AE00056CE0B /* LaunchScreen.xib */,
+				01B9CAB41AF62AE00056CE0B /* Supporting Files */,
+			);
+			path = MyCountryBook;
+			sourceTree = "<group>";
+		};
+		01B9CAB41AF62AE00056CE0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01B9CAB51AF62AE00056CE0B /* Info.plist */,
+				01B9CAB61AF62AE00056CE0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01B9CACD1AF62AE00056CE0B /* MyCountryBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				01B9CAD01AF62AE00056CE0B /* MyCountryBookTests.m */,
+				01B9CACE1AF62AE00056CE0B /* Supporting Files */,
+			);
+			path = MyCountryBookTests;
+			sourceTree = "<group>";
+		};
+		01B9CACE1AF62AE00056CE0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01B9CACF1AF62AE00056CE0B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01B9CAB01AF62AE00056CE0B /* MyCountryBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B9CAD41AF62AE00056CE0B /* Build configuration list for PBXNativeTarget "MyCountryBook" */;
+			buildPhases = (
+				01B9CAAD1AF62AE00056CE0B /* Sources */,
+				01B9CAAE1AF62AE00056CE0B /* Frameworks */,
+				01B9CAAF1AF62AE00056CE0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCountryBook;
+			productName = MyCountryBook;
+			productReference = 01B9CAB11AF62AE00056CE0B /* MyCountryBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01B9CAC91AF62AE00056CE0B /* MyCountryBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B9CAD71AF62AE00056CE0B /* Build configuration list for PBXNativeTarget "MyCountryBookTests" */;
+			buildPhases = (
+				01B9CAC61AF62AE00056CE0B /* Sources */,
+				01B9CAC71AF62AE00056CE0B /* Frameworks */,
+				01B9CAC81AF62AE00056CE0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01B9CACC1AF62AE00056CE0B /* PBXTargetDependency */,
+			);
+			name = MyCountryBookTests;
+			productName = MyCountryBookTests;
+			productReference = 01B9CACA1AF62AE00056CE0B /* MyCountryBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01B9CAA91AF62AE00056CE0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Priya;
+				TargetAttributes = {
+					01B9CAB01AF62AE00056CE0B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					01B9CAC91AF62AE00056CE0B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 01B9CAB01AF62AE00056CE0B;
+					};
+				};
+			};
+			buildConfigurationList = 01B9CAAC1AF62AE00056CE0B /* Build configuration list for PBXProject "MyCountryBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01B9CAA81AF62AE00056CE0B;
+			productRefGroup = 01B9CAB21AF62AE00056CE0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B9CAB01AF62AE00056CE0B /* MyCountryBook */,
+				01B9CAC91AF62AE00056CE0B /* MyCountryBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01B9CAAF1AF62AE00056CE0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B9CAF01AF638AE0056CE0B /* singaporejpg.jpg in Resources */,
+				0140C9831AF6486200217EE8 /* africa_desc.pages in Resources */,
+				01B9CAF41AF638CF0056CE0B /* japan.jpg in Resources */,
+				01B9CAE81AF638530056CE0B /* australia.jpg in Resources */,
+				01B9CAC01AF62AE00056CE0B /* Main.storyboard in Resources */,
+				01B9CAC51AF62AE00056CE0B /* LaunchScreen.xib in Resources */,
+				01B9CAEA1AF638670056CE0B /* china.jpg in Resources */,
+				01B9CAF21AF638BE0056CE0B /* new zeland.jpg in Resources */,
+				01B9CAF61AF638F70056CE0B /* italy1.jpg in Resources */,
+				01B9CAE41AF6382A0056CE0B /* india.jpg in Resources */,
+				01B9CAEC1AF6387A0056CE0B /* Dubai.jpg in Resources */,
+				0174CD561AFE09D6007C1BB2 /* CountryList.plist in Resources */,
+				01B9CAE61AF6383F0056CE0B /* africa.jpg in Resources */,
+				01B9CADE1AF62B640056CE0B /* ActualPage.xib in Resources */,
+				01B9CAC21AF62AE00056CE0B /* Images.xcassets in Resources */,
+				01B9CAEE1AF6389B0056CE0B /* spain.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B9CAC81AF62AE00056CE0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B9CAAD1AF62AE00056CE0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B9CABD1AF62AE00056CE0B /* ViewController.m in Sources */,
+				01B9CABA1AF62AE00056CE0B /* AppDelegate.m in Sources */,
+				01B9CADD1AF62B640056CE0B /* ActualPage.m in Sources */,
+				01B9CAB71AF62AE00056CE0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B9CAC61AF62AE00056CE0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B9CAD11AF62AE00056CE0B /* MyCountryBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01B9CACC1AF62AE00056CE0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01B9CAB01AF62AE00056CE0B /* MyCountryBook */;
+			targetProxy = 01B9CACB1AF62AE00056CE0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01B9CABE1AF62AE00056CE0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B9CABF1AF62AE00056CE0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01B9CAC31AF62AE00056CE0B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B9CAC41AF62AE00056CE0B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01B9CAD21AF62AE00056CE0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01B9CAD31AF62AE00056CE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01B9CAD51AF62AE00056CE0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCountryBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01B9CAD61AF62AE00056CE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCountryBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01B9CAD81AF62AE00056CE0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyCountryBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCountryBook.app/MyCountryBook";
+			};
+			name = Debug;
+		};
+		01B9CAD91AF62AE00056CE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyCountryBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCountryBook.app/MyCountryBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B9CAAC1AF62AE00056CE0B /* Build configuration list for PBXProject "MyCountryBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B9CAD21AF62AE00056CE0B /* Debug */,
+				01B9CAD31AF62AE00056CE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B9CAD41AF62AE00056CE0B /* Build configuration list for PBXNativeTarget "MyCountryBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B9CAD51AF62AE00056CE0B /* Debug */,
+				01B9CAD61AF62AE00056CE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B9CAD71AF62AE00056CE0B /* Build configuration list for PBXNativeTarget "MyCountryBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B9CAD81AF62AE00056CE0B /* Debug */,
+				01B9CAD91AF62AE00056CE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01B9CAA91AF62AE00056CE0B /* Project object */;
+}
